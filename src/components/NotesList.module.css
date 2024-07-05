@@ -1,0 +1,26 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.note {
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.note h3 {
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+.note p {
+	margin: 0.5rem 0 0;
+}
+
+.note a {
+	margin-top: 0.5rem;
+	display: inline-block;
+}
